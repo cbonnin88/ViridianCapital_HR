@@ -3,4 +3,6 @@ channels:
   - snowflake
 dependencies:
   - faker=*
-  - plotly=*
+  - ipywidgets=*
+  - nbformat=5.10.4
+  - plotly=6.5.0
