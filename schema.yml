@@ -1,0 +1,14 @@
+version: 2
+models:
+  - name: fct_compensation_summary
+    columns:
+      - name: EMPLOYEE_ID
+        tests:
+          - unique
+          - not_null
+      - name: total_compensation_eur
+        tests:
+          - not_null
+          
+          
+          

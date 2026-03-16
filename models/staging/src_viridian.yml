@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: viridian_capital_raw
+    database: VIRIDIAN_CAPITAL
+    schema: PUBLIC
+    tables:
+      - name: RAW_EMPLOYEES
+      - name: RAW_COMPENSATION
+      - name: RAW_ESG_METRICS
