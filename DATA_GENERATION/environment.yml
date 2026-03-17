@@ -5,4 +5,6 @@ dependencies:
   - faker=*
   - ipywidgets=*
   - nbformat=5.10.4
+  - pandas=2.2.2
   - plotly=6.5.0
+  - snowflake-snowpark-python=
