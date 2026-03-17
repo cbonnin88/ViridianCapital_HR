@@ -13,8 +13,11 @@ st.write('Use the filter below to find high-performing employees for the 2026 Gr
 st.sidebar.header('Filter Criteria')
 
 # Get unique values for the dropdowns
-offices = [row[0] for row in session.sql('SELECT DISTINCT OFFICE FROM fct_compensation_summary').collect()]
-depts = [row[0] for row in session.sql('SELECT DISTINCT DEPARTMENT FROM fct_compensation_summary').collect()]
+offices_df = session.sql("SELECT DISTINCT OFFICE FROM fct_compensation_summary").to_pandas()
+offices = offices_df['OFFICE'].tolist()
+
+depts_df = session.sql("SELECT DISTINCT DEPARTMENT FROM fct_compensation_summary").to_pandas()
+depts = depts_df['DEPARTMENT'].tolist()
 
 selected_office = st.sidebar.multiselect('Select Office(s)', offices, default=offices)
 selected_dept = st.sidebar.multiselect("Select Department(s)", depts, default=depts)
