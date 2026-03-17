@@ -8,3 +8,4 @@ dependencies:
   - pandas=2.2.2
   - plotly=6.5.0
   - snowflake-snowpark-python=
+  - streamlit=1.52.2
