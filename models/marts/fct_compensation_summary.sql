@@ -13,6 +13,7 @@ esg AS (
 SELECT
     e.EMPLOYEE_ID,
     e.FULL_NAME,
+    e.AGE,
     e.JOB_TITLE,
     e.OFFICE,
     e.DEPARTMENT,
