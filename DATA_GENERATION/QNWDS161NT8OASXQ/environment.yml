@@ -3,5 +3,6 @@ channels:
   - snowflake
 dependencies:
   - python=3.11.*
+  - scikit-learn=1.8.0
   - snowflake-snowpark-python=
   - streamlit=1.52.2
