@@ -1,3 +1,7 @@
+![Project Status](https://img.shields.io/badge/Status-Completed-success)
+![Data Size](https://img.shields.io/badge/Dataset-12,500+_Employees-blue)
+![Stack](https://img.shields.io/badge/Stack-Snowflake_|_dbt_cloud_|_Python_|_SQL_|_Polars_&_Pandas_|_Scikit--Learn_|_Streamlit_|_Google_Sheets-red)
+
 # 🌿 Viridian Capital: Predictive Talent & ESG Analytics Platform
 
 An end-to-end Modern Data Stack (MDS) project simulating a global investment firm's human capital management. This platform integrates automated data engineering, dbt transformations, and a machine learning-powered Streamlit application to identify and predict high-performing ESG (Environmental, Social, and Governance) talent.
